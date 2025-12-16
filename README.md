@@ -1,8 +1,3 @@
-🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠
-
-Here's a README for you:
-
-```markdown
 # Search Destroyer
 
 A Chrome/Chromium browser extension that closes all open tabs from search engines with one click.
@@ -41,4 +36,4 @@ Example: `*://*.google.com/search*` matches any Google search page.
 ## License
 
 MIT
-```
+

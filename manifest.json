@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Search Destroyer",
+  "version": "0.1",
+  "description": "Removes all tabs from search engines",
+  "permissions": ["tabs","storage"],
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}

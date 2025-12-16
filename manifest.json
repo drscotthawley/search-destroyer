@@ -5,7 +5,8 @@
   "description": "Removes all tabs from search engines",
   "permissions": ["tabs","storage"],
   "icons": {
-    "48": "icon.png"
+    "48": "icon.png",
+    "128": "icon_128.png"
   },
   "action": {
     "default_popup": "popup.html",

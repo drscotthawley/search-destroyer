@@ -35,7 +35,13 @@ Patterns use Chrome's match pattern syntax: `scheme://host/path`
 
 Example: `*://*.google.com/search*` matches any Google search page.
 
+## Privacy Policy 
+
+- Doesn't use any user data
+- Doesn't view or modify any web pages
+- Doesn't track or report anything
+- Does store list of (customized) URL patterns to standard extension storage
+
 ## License
 
 MIT
-

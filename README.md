@@ -1,4 +1,4 @@
-# Search Destroyer
+# Search Destroyer  ![icon](icon.png) 
 
 A Chrome/Chromium browser extension that closes all open tabs from search engines with one click.
 

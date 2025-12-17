@@ -14,13 +14,12 @@ document.getElementById("reset").addEventListener("click", () => {
     chrome.storage.sync.set({ patterns: DEFAULT_PATTERNS }); 
 });
 
-
 document.getElementById("button").addEventListener("click", () => {
     console.log("Button clicked!");
-    const text = document.getElementById("sites").value;
+    const text = document.getElementById("sites").value
     chrome.storage.sync.set({ patterns: text }); // save the pattern for next time
     console.log("text =",text)
-    const patterns = text.split("\n").map(s => s.trim());
+    const patterns = text.split("\n").map(s => s.trim()).filter(s => s);
     patterns.forEach((p, i) => console.log(`patterns[${i}]: |${p}|`));
     chrome.tabs.query({ url: patterns }, (tabs) => {
         tabs.forEach((t, i) => console.log(`matching tabs[${i}]: `,t.url));
@@ -29,5 +28,4 @@ document.getElementById("button").addEventListener("click", () => {
         chrome.tabs.remove(tabIDs)
         document.getElementById("status").textContent = `Destroyed ${tabs.length} tabs`;
     });
-
 });

@@ -44,6 +44,10 @@ Example: `*://*.google.com/search*` matches any Google search page.
 - Doesn't track or report anything
 - Does store list of (customized) URL patterns to standard extension storage
 
+## Human Authorship
+
+This was not vibe-coded, it was me-coded -- with [solveit](https://solve.it.com) AI coaching me every step along the way. ;-)
+
 ## License
 
 MIT

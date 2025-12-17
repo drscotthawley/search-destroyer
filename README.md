@@ -37,6 +37,25 @@ Patterns use Chrome's match pattern syntax: `scheme://host/path`
 
 Example: `*://*.google.com/search*` matches any Google search page.
 
+Though originally intended for search sites, you can add other sites, such as social media and news. For example, you could edit the list to read:
+```
+*://*.google.com/search*
+*://*.duckduckgo.com/*
+*://*.startpage.com/*
+*://*.bing.com/*
+*://*.ecosia.org/*
+*://search.yahoo.com/*
+*://*.instagram.com/*
+*://*.facebook.com/*
+*://*.reddit.com/*
+*://*.slashdot.org/*
+*://*.fark.com/*
+*://*.bsky.app/*
+*://*.x.com/*
+*://*.twitter.com/*
+*://*.linkedin.com/*
+```
+
 ## Privacy Policy 
 
 - Doesn't use any user data

@@ -37,7 +37,7 @@ Patterns use Chrome's match pattern syntax: `scheme://host/path`
 
 Example: `*://*.google.com/search*` matches any Google search page.
 
-Though originally intended for search sites, you can add other sites, such as social media and news. For example, you could edit the list to read:
+Though originally intended for search sites, you can add other sites such as social media and news. For example, you could edit the list to read:
 ```
 *://*.google.com/search*
 *://*.duckduckgo.com/*

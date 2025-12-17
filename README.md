@@ -4,6 +4,8 @@ A Chrome/Chromium browser extension that closes all open tabs from search engine
 
 *Currently Under Review at the Chrome Extension Store. In the meantime you can follow instructions below.*
 
+![screenshot](screenshots/after_action.png)
+
 ## Features
 
 - Close tabs from multiple search engines (Google, DuckDuckGo, Startpage, Bing, Ecosia, Yahoo)

@@ -4,7 +4,7 @@ A Chrome/Chromium browser extension that closes all open tabs from search engine
 
 *Currently Under Review at the Chrome Extension Store. In the meantime you can follow instructions below.*
 
-![screenshot](screenshots/after_action.png)
+<img src="screenshots/after_action.png" width="375px">
 
 ## Features
 
